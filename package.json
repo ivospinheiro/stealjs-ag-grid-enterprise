@@ -13,11 +13,14 @@
     "directories": {
       "lib": "src"
     },
-    "npmIgnore": [
-      "peerDependencies"
-    ]
+    "map": {
+      "ag-grid-enterprise": {
+        "ag-grid-community@18.0.0": "ag-grid-community@19.0.0"
+      }
+    }
   },
   "dependencies": {
+    "ag-grid-community": "^19.0.0",
     "ag-grid-enterprise": "^19.0.0",
     "steal": "^2.1.5"
   },
